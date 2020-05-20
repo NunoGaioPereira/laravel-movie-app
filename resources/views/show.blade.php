@@ -2,13 +2,13 @@
 
 @section('content')
     <div class="movie-info border-b border-gray-800">
-        <div class="container mx-auto px-4 py-16 flex">
+        <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
             <div class="flex-none">
-                <img src="/imgs/parasite.jpg" alt="parasite" class="w-96">
+                <img src="/imgs/parasite.jpg" alt="parasite" class="w-64 md:w-96">
             </div>
-            <div class="ml-24">
+            <div class="md:ml-24">
                 <h2 class="text-4xl font-semibold">Parasite (2019)</h2>
-                <div class="flex items-center text-gray-400 text-sm">
+                <div class="flex flex-wrap items-center text-gray-400 text-sm">
                     <span>s</span>
                     <span class="ml-1 text-sm">75%</span>
                     <span class="mx-2">|</span>
