@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="movie-info birder-b border-gray-800">
+    <div class="movie-info border-b border-gray-800">
         <div class="container mx-auto px-4 py-16 flex">
             <div class="flex-none">
                 <img src="/imgs/parasite.jpg" alt="parasite" class="w-96">
@@ -38,7 +38,60 @@
                         <button class="flex items center bg-orange-500 text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150">
                             <span class="ml-2">Play Trailer</span>
                         </button>
-                    </div-mt-12>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie-cast border-b border-gray-800">
+        <div class="container mx-auto px-4 py-16">
+            <h2 class="text-4xl font-semibold">Cast</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5  gap-8">
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/actor1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                    <div class="mt-2">
+                        <a href="#" class="text-lg mt-2 hover:text-gray:300">Actor Name</a>
+                        <div class="text-gray-400 text-sm">
+                            John Smith
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/actor2.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                    <div class="mt-2">
+                        <a href="#" class="text-lg mt-2 hover:text-gray:300">Actor Name</a>
+                        <div class="text-gray-400 text-sm">
+                            John Smith
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/actor3.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                    <div class="mt-2">
+                        <a href="#" class="text-lg mt-2 hover:text-gray:300">Actor Name</a>
+                        <div class="text-gray-400 text-sm">
+                            John Smith
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/actor4.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                    <div class="mt-2">
+                        <a href="#" class="text-lg mt-2 hover:text-gray:300">Actor Name</a>
+                        <div class="text-gray-400 text-sm">
+                            John Smith
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/actor5.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                    <div class="mt-2">
+                        <a href="#" class="text-lg mt-2 hover:text-gray:300">Actor Name</a>
+                        <div class="text-gray-400 text-sm">
+                            John Smith
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
