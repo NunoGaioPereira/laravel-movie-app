@@ -96,4 +96,30 @@
             </div>
         </div>
     </div>
+
+    <div class="movie-images border-b border-gray-800">
+        <div class="container mx-auto px-4 py-16">
+            <h2 class="text-4xl font-semibold">Images</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/image1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/image2.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/image3.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/image4.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/image5.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                </div>
+                <div class="mt-8">
+                    <a href="#"><img src="/imgs/image6.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-200"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
